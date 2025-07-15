@@ -13,7 +13,7 @@ public class BrowserDriver {
     public void setup() {
         if (driver == null) {
             System.setProperty("webdriver.chrome.driver",
-                    System.getProperty("user.dir") + "/src/test/resources/drivers/chromedriver_136x.exe");
+                    System.getProperty("user.dir") + "/src/test/resources/drivers/chromedriver_138x.exe");
 
             ChromeOptions options = new ChromeOptions();
             // Add any specific Chrome options if needed
