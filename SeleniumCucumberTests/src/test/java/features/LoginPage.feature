@@ -2,6 +2,7 @@ Feature: Login to Monkeytype
 
   Scenario Outline: User logs into Monkeytype
     Given the user is on the Monkeytype homepage
+    Then the user clicks Accept All
     When the user clicks the profile button
     Then the login modal should appear
     And the user enters email "<email>"
